@@ -1,6 +1,5 @@
 package com.sds.oAuth.config;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -29,5 +28,6 @@ class OAuth2Configuration {
     public JdbcClientDetailsService jdbcClientDetailsService(DataSource dataSource) {
         return new JdbcClientDetailsService(dataSource);
     }
+
 
 }

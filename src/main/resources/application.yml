@@ -1,4 +1,5 @@
-
+# client-id : client를 식별하는 고유 정보
+# client-secret : 액세스 토큰을  교환하기 위한 비공개 정보 ( 보통 암호 )
 spring.h2.console:
   enabled: true
   path: /h2-console

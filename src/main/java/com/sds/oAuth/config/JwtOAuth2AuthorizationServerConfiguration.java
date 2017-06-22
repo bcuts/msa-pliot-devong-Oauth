@@ -40,4 +40,5 @@ class JwtOAuth2AuthorizationServerConfiguration extends OAuth2AuthorizationServe
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.withClientDetails(clientDetailsService);
     }
+
 }
