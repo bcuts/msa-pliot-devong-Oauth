@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/msa-pliot-devong-Oauth.iml" filepath="$PROJECT_DIR$/msa-pliot-devong-Oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-pliot-devong-Oauth_main.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-pliot-devong-Oauth_main.iml" group="msa-pliot-devong-Oauth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msa-pliot-devong-Oauth_test.iml" filepath="$PROJECT_DIR$/.idea/modules/msa-pliot-devong-Oauth_test.iml" group="msa-pliot-devong-Oauth" />
+    </modules>
+  </component>
+</project>
