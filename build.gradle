@@ -17,11 +17,22 @@ apply plugin: 'org.springframework.boot'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
+springBoot{
+	mainClass = "com.sds.oAuth.OAuth2Application"
+}
+jar {
+	manifest{
+		attributes 'Title' : 'devong-oAuth' , 'Version' : version , 'Main-Class' : 'com.devong.oAuth.OAuth2Application'
+	}
+	baseName = 'msa-pliot-devong-Oauth'
+	version =  '0.1.0'
+}
 repositories {
 	mavenCentral()
 }
+task stage(dependsOn:['build','jar']){
 
-
+}
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile("org.springframework.boot:spring-boot-starter-data-rest")
